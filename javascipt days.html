@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>parseint convertion</h1>
+    <p id="paresient"></p>
+    <script>
+        document.getElementById("paresient").innerHTML =
+        parseInt("99") + "<br>" +
+        parseInt("99.99") + "<br>" +
+        parseInt("3.14") + "<br>" +
+        parseInt("10 25 03") + "<br>" +
+        parseInt("   100   ") + "<br>" +
+        parseInt(" 12  years") + "<br>" +
+        parseInt("i am  18");
+        </script>
+        <h1>paresefloat convertion</h1>
+        <p id="paresefloat"></p>
+
+<script>
+document.getElementById("paresefloat").innerHTML =
+parseFloat(10) + "<br>" +
+parseFloat("11") + "<br>" +
+parseFloat("15.33") + "<br>" +
+parseFloat("3 4 5") + "<br>" +
+parseFloat("she was 43");
+</script>
+<h1>Global Methods</h1>
+<p id="Global Methods"></p>
+
+<script>
+document.getElementById("Global Methods").innerHTML =
+Number(true) + "<br>" + 
+Number(false) + "<br>" + 
+Number(new Date());
+</script>
+<h1>date</h1>
+<p id="date"></p>
+
+<script>
+const d = new Date();
+document.getElementById("date").innerHTML = d;
+</script>
+<h1>iso notation</h1>
+<p id="iso"></p>
+
+<script>
+const d  = new Date("2022-07-27");
+document.getElementById("iso").innerHTML = d;</script>
+<h1>boolean</h1>
+<p id="boolean"></p>
+
+<script>
+document.getElementById("boolean").innerHTML = Boolean(10 > 9);
+</script>
+<h1>to string</h1>
+<p id="to string"></p>
+
+<script>
+let bool = true;
+let text = bool.toString(); 
+document.getElementById("to string").innerHTML = typeof text;
+</script>
+<h1>max</h1>
+<p id="max"></p>
+
+<script>
+document.getElementById("max ").innerHTML = Number.MAX_VALUE;
+</script>
+<h1>operator</h1>
+<p id="operator"></p>
+
+<script>
+let text1 = "chandani";
+let text2 = "Tilwani";
+let text3 = text1 + " " + text2;
+document.getElementById("operator").innerHTML = text3;
+</script>
+
+<p id="nice"></p>
+
+<script>
+let text1 = "What a very ";
+text1 += "nice day";
+document.getElementById("nice").innerHTML = text1;</script>
+ 
+
+
+</body>
+</html>

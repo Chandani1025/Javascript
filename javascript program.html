@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #BoxShadowDiv:hover {
+            box-shadow: 0px 0px 10px blue:
+            demo_4:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:Blue;
+                      color:yellow; 
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>how are ypu buddy?</h2>
+
+    <p id="demo">i am fine .</p>
+
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button><br>
+    <hr>
+    <hr>
+    <button onclick="document.getElementById('myImage').src= 'physical.jpg' ">world map</button>
+
+    <img id="myImage" src="india.jpg" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='india.jpg'">india map</button><br>
+    <hr>
+    <hr>
+    <p id="demo1">kem cho.</p>
+    <div id="BoxShadowDiv">
+        <button type="button" onclick='document.getElementById("demo1").innerHTML = "majama" '>Click to get answer from
+            my side</button>
+    </div><br>
+    <hr>
+    <hr>
+    <p id="demo 3"></p>
+
+    <script>
+        const a = 123;
+        let car = "bmw";
+        let answer = 'here i am';
+
+        document.getElementById("demo 3").innerHTML =
+            a + "<br>" + car + "<br>" + answer;
+    </script><br><br>
+    <hr>
+    <hr>
+    <p id="demo_4"></p>
+    <div id="RotateDiv"></div>
+    <script>
+        const fruits = ["apple ", "banana", "mango"];
+        document.getElementById("demo_4").innerHTML = fruits;
+    </script>
+    
+</body>
+
+</html>
